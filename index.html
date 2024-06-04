@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Circle !</title>
+</head>
+<body>
+    <div class="bandeau">
+        <div class="bandeau__left">
+            <p class="create" id="cr" onclick="circle()">Create ✍🏼</p>
+        </div>
+        <div class="bandeau__middle">
+            <h1 class="title">
+                🧠Draw A Circle🧠
+            </h1>
+            <h2 class="subtitle">
+                ✨ you've never dreamed of drawing a perfect circle ✨ <br> Now you can 🔥🔥
+            </h2>
+        </div>
+        <div class="bandeau__right">
+            <p class="reset" id="rs" onclick="resetCircle()">Reset 🔁</p>
+        </div>
+    </div>
+    <div class="middle" id="MIDDLE">
+        <div class="top">
+            <h2>🌟🌟Your Circle !🌟🌟</h2>
+        </div>
+        <div class="btn">
+            <div class="btn_circle">
+                <input type="range" min="50" max="500" name="SIZE" id="SIZE" placeholder="size of your circle">            
+                <input type="color" name="COLOR" id="COLOR">
+                <input  type="button" value="Let's draw my circle 🎨" onclick="createCircle()">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

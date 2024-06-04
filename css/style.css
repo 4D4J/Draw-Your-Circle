@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bandeau{
+    /* background-color: lightblue; */
+
+    width: auto;
+    height: 225px;
+
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    align-items: center;
+}
+.bandeau__right, .bandeau__left{
+    /* background-color: aquamarine; */
+
+    width: 250px;
+    height: auto;
+}
+p{
+    font-size: 25px;
+}
+.create:hover{
+    transform: scaleX(2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.reset:hover{
+    transform: scaleY(2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.middle{
+    background-color: aliceblue;
+    box-shadow: 5px 4px 35px 15px rgb(70 70 70);
+
+    width: 350px;
+    height: 450px;
+
+    border-radius: 25px;
+    
+    text-align: center;
+
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    /* background-color: aqua; */
+
+    width: auto;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    top: -40px;
+}
+.btn_circle{
+    /* background-color: red; */
+
+    width: 100%;
+
+    text-align: center;
+    align-items: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#circle {
+    background: none;
+
+    border-radius: 50%;
+
+    width: 160px;
+    height: 160px;
+
+    border: 3px solid #679403;
+
+    position: fixed;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
